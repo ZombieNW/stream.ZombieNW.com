@@ -1,7 +1,19 @@
 {
-"movies": [
-    { "title":"Intro", "description": "Basically A Placeholder.","source":"https://drive.google.com/uc?id=1yL3GJF01evl8UvpSQ1Oz7eaDs7YqeNW0"},
-	{ "title":"The-ZNW-Show", "description": "A peculiar sketch comedy show staring ZombieNW.", "source":["https://github.com/ZombieNW/Testing/blob/master/A_New_Chapter_Final_Render.mp4?raw=true","http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"]}
-	
-  ]
+	"movies": [
+		{ "id": 0, "type": "Movie", "title":"Ori-Digital Intro", "description": "The Cinematic Intro For The Animation Part Of Ori-Digital Studios.","source":"https://drive.google.com/uc?id=1yL3GJF01evl8UvpSQ1Oz7eaDs7YqeNW0","poster":"https://cdn.discordapp.com/attachments/737915991178346538/759211720752234496/poster.png", "thumb":"https://cdn.discordapp.com/attachments/737915991178346538/759211771050590208/thumb.png"},
+		{ "id": 1, "type": "Show", "title":"The ZNW Show", "description": "A peculiar sketch comedy show staring ZombieNW.", "poster":"https://cdn.discordapp.com/attachments/737915991178346538/759211862423633970/poster.png", "thumb":"https://cdn.discordapp.com/attachments/737915991178346538/759211954153324544/thumb.png", "episodes":
+			[
+					{ "ep": "1", "s": "1", "title":"New Plan", "description": "New Plan Everyone, Sketch Comedy It Is!","source":"https://drive.google.com/uc?export=download&id=1q06S8XCJLouCFZ_cKVjiKZObD8PpSfY2"}
+	  
+			]
+		},
+		{ "id": 2, "type": "Show", "title":"Untitled Sketchbook", "description": "The Tube always brings wild things to Sketchbook.", "poster":"https://cdn.discordapp.com/attachments/737915991178346538/759211829548285982/poster.png", "thumb":"https://cdn.discordapp.com/attachments/737915991178346538/759211954153324544/thumb.png", "episodes":
+			[
+					{ "ep": "Pilot", "s": "1", "title":"Pilot", "description": "The Pilot For The Show","source":"https://drive.google.com/uc?id=1ckBr-30GX7UN_1r4GKTZgbb6XLr_OgQY"}
+	  
+			]
+		},
+		{ "id": 3, "type": "Movie", "title":"ZombieNW Intro", "description": "The Cinematic Intro For ZombieNW.","source":"https://drive.google.com/uc?id=1dqVaLseHdni9DnZGt4tQa-ijdyQaJK4K","poster":"https://cdn.discordapp.com/attachments/737915991178346538/759211925439119361/poster.png", "thumb":"https://cdn.discordapp.com/attachments/737915991178346538/759211954153324544/thumb.png"}
+		
+	]
 }

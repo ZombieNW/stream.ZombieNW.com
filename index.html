@@ -1,11 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>Coming Soon</title>
-    <link href="index.css" rel="stylesheet" />
-	<script src="index.js"></script>
+    <!--Header stuff, you know, the works-->
+    <title>StreamNW</title>
+    <link href="index.css" rel="stylesheet"/>
+    <script src="index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.png" type="image/png">
 </head>
-<body>
-    <h1>Coming Soon</h1>
-</body>
+    <body>
+            <!--Checks For Darkmode-->
+            <script> 
+                var app = document.getElementsByTagName("BODY")[0];
+                if (localStorage.lightMode == "dark") {
+                    app.setAttribute("data-light-mode", "dark");
+                }
+            </script>
+            <!--Header-->
+            <div class="topnav">
+                <a class="nonclick">StreamNW</a>
+                <a class="active" href="">Home</a>
+                <a href="about/">About</a>
+            </div>
+            <!--Page.-->
+            <h1>Titles:</h1>
+            <p>Note from ZNW: More Titles Are Coming Soon, For Now We Just Had To Launch The Website</p>
+            <!--Search.-->
+            <input type="text" id="myInput" onkeyup="searchFunction()" placeholder="Search for titles.." title="Search for titles...">
+            <!--Content Displayed Within-->
+            <ul id="myUL" class="myUL"></ul>
+            <!--Darkmode Button-->
+            <div class="bottomleft">
+                <a onclick="toggle_light_mode()" class="darkmode-button">🌙</a>
+                <p>© ZombieNW 2020</p>
+            </div>
+    </body>
 </html>

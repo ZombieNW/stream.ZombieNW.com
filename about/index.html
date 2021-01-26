@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>StreamNW</title>
+    <link href="index.css" rel="stylesheet"/>
+    <script src="index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
+</head>
+    <body onload="load()" id="main">
+        <script>
+            var app = document.getElementsByTagName("BODY")[0];
+            if (localStorage.lightMode == "dark") {
+                app.setAttribute("data-light-mode", "dark");
+            }
+        </script>
+        <div class="topnav">
+            <a class="nonclick" >StreamNW</a>
+            <a href="../">Home</a>
+            <a class="active" href="">About</a>
+        </div>
+        <h1>About</h1>
+        <p>Sorry dark mode users, didn't want to transfer darkmode settings to this page...</p>
+        <h3>&emsp;StreamNW is created and run by ZombieNW, the only user data collected is handled by Google Analytics and is sent to us anonymously. Contact me at the following email for any questions, comments, or concerns you may have. <br> Thank you <3</h3>
+        <a href="mailto:ZombieNW@gmail.com">ZombieNW@gmail.com</a>
+    </body>
+</html>
